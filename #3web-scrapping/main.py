@@ -25,7 +25,7 @@ def find_key_words(*key_words):
         pattern = rf"{'|'.join(key_words)}"
         result = re.search(pattern, article_text, flags=re.IGNORECASE)
         if result:
-            article_title = article.find(class_='tm-article-snippet__title tm-article-snippet__title_h2').text
+            article_title = article.find('h2').text
             print(f'Совпадение: {result.group()}')
             print(f"{article_title} - {article_url}")
             print()
