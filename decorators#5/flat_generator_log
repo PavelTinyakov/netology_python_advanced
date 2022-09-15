@@ -1,0 +1,4 @@
+16.09.2022 00:46:40 | flat_generator | args=([['a', 'b', 'c'], ['d', 'e', 'f', 'h', False], [1, 2, None]],), kwargs={}| <generator object flat_generator at 0x104b79150>
+16.09.2022 00:46:40 | flat_generator | args=(['a', 'b', 'c'],), kwargs={}| <generator object flat_generator at 0x104b79230>
+16.09.2022 00:46:40 | flat_generator | args=(['d', 'e', 'f', 'h', False],), kwargs={}| <generator object flat_generator at 0x104b79230>
+16.09.2022 00:46:40 | flat_generator | args=([1, 2, None],), kwargs={}| <generator object flat_generator at 0x104b79230>
